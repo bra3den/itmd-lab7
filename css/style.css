@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-image: url('../images/galaxy.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+#planets {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #a761cf77;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: auto;
+  height: 80px;
+  border-radius: 50%;
+}
+
+td {
+  font-weight: lighter;
+  color: #666;
+}
+
+td:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+
+td:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.orbital-data {
+  font-style: italic;
+}
+
+.escape-velocity,
+.diameter {
+  font-weight: bold;
+}
+
+/* Adjustments for mobile viewing */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #planets {
+    width: 100%;
+  }
+}
